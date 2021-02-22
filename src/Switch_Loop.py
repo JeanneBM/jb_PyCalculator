@@ -12,10 +12,10 @@ def division(x, y):
 
 def switch(choice):
     switcher = {
-        1: addition(),
-        2: subtraction(),
-        3: multiplication(),
-        4: division()
+        1: addition,
+        2: subtraction,
+        3: multiplication,
+        4: division
     }
     return switcher.get(choice, "There is no such an option")
 
@@ -27,6 +27,6 @@ print("4 - Division")
 
 #Take input from user
 choice = input("What kind of operation should be performed? [Insert one of the options(1 2 3 4)]: ")
-x = float(input("Enter first number: "))
-y = float(input("Enter second number: "))
+x = input("Enter first number: ")
+y = input("Enter second number: ")
 print (switch(choice))
