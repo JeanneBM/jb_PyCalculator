@@ -9,7 +9,7 @@ app = Flask(__name__)
 def obsluz():
     strona = ''
     strona += '<h1>Select please one of the following operations: </h1>\n'
-    strona += '<p>1-Addition; 2-Subtraction; 3-Multiplication; 4-Division</p>
+    strona += '<p>"1-Addition; 2-Subtraction; 3-Multiplication; 4-Division"</p>
     
     strona += '<h1>What kind of operation should be performed? [Insert one of the options(1 2 3 4)]:</h1>\n'
     strona += '<form action="">\n'
