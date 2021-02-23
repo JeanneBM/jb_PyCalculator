@@ -35,8 +35,11 @@ while True:
             print(x, "*", y, "=", multiplication(x, y))
 
         elif choice == '4':
-            print(x, "/", y, "=", division(x, y))
-        break
+            if y == 0:
+                print ("Division by zero. We cannot perform this operation.")
+            else:
+                print(x, "/", y, "=", division(x, y))
+       # break <<- If we want one-try-calculator
     else:
         print("There is no such an option. Select please one of the following: 1 2 3 4")
         
