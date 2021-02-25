@@ -7,20 +7,68 @@
 # sh <(curl -q https://platform.activestate.com/dl/cli/install.sh)
 # state activate --default ActiveState/ActivePython-3.8 
 
-
 from tkinter import *
 
-root = Tk()
-root.title("PyCalculator")
 
-a = Entry(root, width=35, borderwidth=5)
-a.grid(row=0, column=0, cloumnspan=3, ipadx=10, pady=10)
+def PyCalculator(source, side):
+    window = Frame(source, borderwidth=1000, bd=10, bg="DarkOrchid1")
+    window.pack(side=side, expand=YES, fill=BOTH)
+    return window
 
-def button():
-    return
 
-button1 = Button(root, text="1", padx=40, pady=40, command=button)
-button2 = Button(root, text="2", padx=40, pady=40, command=button)
+def button(source, side, text, command=None):
+    window = Button(source, text=text, command=command)
+    window.pack(side=side, expand=YES, fill=BOTH)
+    return window
 
-button1.grid(row=3, column=0)
-button2.grid(row=3, column=1)
+
+class Application(Frame):
+    def __init__(self):
+        Frame.__init__(self)
+        self.option_add('*Font', 'arial 16')
+        self.pack(expand=YES, fill=BOTH)
+        self.master.title('PyCalculator')
+
+        output = StringVar()
+        Entry(self, relief=RIDGE, textvariable=output,
+              justify='right'
+              , bd=30, bg="DarkOrchid1").pack(side=TOP,
+                                              expand=YES, fill=BOTH)
+
+        for clearButton in (["Clear"]):
+            cleaning = PyCalculator(self, TOP)
+            for ichar in clearButton:
+                button(cleaning, LEFT, ichar, lambda
+                    window=output, q=ichar: window.set(''))
+
+        for buttonsTable in ("123-", "456*","789/", "0.+"):
+            operation = PyCalculator(self, TOP)
+            for choice in buttonsTable:
+                button(operation, LEFT, choice, lambda
+                    window=output, q=choice: window
+                       .set(window.get() + q))
+
+        resultButton = PyCalculator(self, TOP)
+        for choice in "=":
+            if choice == '=':
+                score = button(resultButton, LEFT, choice)
+                score.bind('<ButtonRelease-1>', lambda e, s=self,
+                                                            window=output: s.machine(window), '+')
+
+
+            else:
+                score = button(resultButton, LEFT, choice,
+                                    lambda window=output, s=' %s ' % choice: window.set
+                                    (window.get() + s))
+
+    def machine(self, output):
+        try:
+            output.set(eval(output.get()))
+        except:
+            output.set("ERROR")
+
+
+if __name__ == '__main__':
+    Application().mainloop()
+
+    
