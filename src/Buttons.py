@@ -32,7 +32,7 @@ class Application(Frame):
         output = StringVar()
         Entry(self, relief=RIDGE, textvariable=output,
               justify='right'
-              , bd=30, bg="DarkOrchid1").pack(side=TOP,
+              , bd=30, bg="OliveDrab1").pack(side=TOP,
                                               expand=YES, fill=BOTH)
 
         for clearButton in (["Clear"]):
