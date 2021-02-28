@@ -13,6 +13,6 @@
 
 #4 - Division
 
-#to run application: python3 name_of_the_file.py
+#To run the application: python3 name_of_the_file.py
 
 
