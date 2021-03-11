@@ -27,6 +27,7 @@ def case(oper_value=oper_value):
         elif choice == 'division':
             sum = x / y
             return render_template('server.html', oper_value=oper_value)
+        
         else:
             return render_template('server.html')
 
