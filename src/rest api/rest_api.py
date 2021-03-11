@@ -1,10 +1,22 @@
+''' 
+Flask 
+
+request  
+
+render_templete
+'''
+
 from flask import Flask, request, render_template
+
+# Application declaration
 app = Flask(__name__)
 
+# Start an application and declarate the main function
 @app.route('/')
 def main():
     return render_template('server.html')
 
+# clarification of route
 @app.route('/case', methods=['POST'])
 def case(oper_value=oper_value):
     if request.method == 'POST':
