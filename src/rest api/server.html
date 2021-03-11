@@ -24,4 +24,44 @@
     
   </head>
   
+    <body>
+    <div class="container">
+      <h3>PyCalculator</h3>
+    </div>
+
+    <div class="container">
+      <form action="/case" method="POST">
+        <label for="Enter first number:">First Number</label>
+        <input
+          type="text"
+          placeholder="First Number"
+          class="u-full-width"
+          name="x"
+        />
+
+        <label for="Enter second number: ">Second Number</label>
+        <input
+          type="text"
+          placeholder="Second Number"
+          class="u-full-width"
+          name="y"
+        />
+
+        <label for="What kind of operation should be performed?">Operation</label>
+        <select class="u-full-width" name="choice">
+          <option value="addition">Addition</option>
+          <option value="subtraction">Subtraction</option>
+          <option value="multiplication">Multiplication</option>
+          <option value="division">Division</option>
+        </select>
+
+        <input type="submit" value="Perform" id="calc_btn" />
+        <br />
+        <div class="alert">
+          {{ oper_value }}
+        </div>
+      </form>
+    </div>
+  </body>
+  
 </html>
