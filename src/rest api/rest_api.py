@@ -16,7 +16,7 @@ app = Flask(__name__)
 def main():
     return render_template('server.html')
 
-# clarification of route
+# Clarification of route
 @app.route('/case', methods=['POST'])
 def case(oper_value=oper_value):
     if request.method == 'POST':
