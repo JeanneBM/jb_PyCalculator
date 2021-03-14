@@ -1,6 +1,6 @@
 import unittest
 
-from ClassyCalc import PyCalculator
+from src.classy_calc import PyCalculator
 
 class unittest_pycalculator(unittest.TestCase):
   
