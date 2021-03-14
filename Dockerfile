@@ -1,15 +1,19 @@
-FROM ubuntu:18.04
+FROM ubuntu:latest
 
-WORKDIR /home
-COPY /PyCalculator
+RUN apt update
+RUN apt -y upgrade
+RUN apt install -y python3-pip
+RUN apt install -y build-essential libssl-dev libffi-dev python3-dev
+RUN apt install -y python3-venv
+RUN apt install -y pipenv
 
-ENV FLASK_DEBUG 1
-ENV FLASK_APP rest_api.py 
+ENV VIRTUAL_ENV "/venv"
+RUN python3 -m venv $VIRTUAL_ENV
+ENV PATH "$VIRTUAL_ENV/bin:$PATH"
 
-RUN apt-get update -y && \
-    apt-get install \
-    -y python3-pip
-    
-RUN 
-RUN 
-RUN 
+
+COPY . PyCalculator
+WORKDIR /PyCalculator/PyCalculator/rest_api
+
+RUN pipenv install flask
+
