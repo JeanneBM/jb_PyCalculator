@@ -20,3 +20,5 @@ $python3.6 -m unittest Basic_Test.Testing
 
 If you want to see the verbose, then the command will be:
 $python3.6 -m unittest -v Basic_Test.Testing
+
+pip install -r requirements.txt
