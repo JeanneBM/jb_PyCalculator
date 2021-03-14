@@ -1,5 +1,5 @@
 import pytest
-from ClassyCalc import PyCalculator
+from src.classy_calc import PyCalculator
 
 # "Constants"
 x = 3.0
