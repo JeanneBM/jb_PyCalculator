@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<!-- env -->
   <head>
-    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>PyCalculator</title>
+    <title></title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
     />
-    
+
     <style>
       .alert {
         background: blue;
@@ -21,44 +18,41 @@
         color: white;
         margin: 1rem;
       }
-    </style>  
-    
+    </style>
   </head>
-  
-  
-<!-- tool specific -->
-    <body>
+  <body>
     <div class="container">
       <h3>PyCalculator</h3>
     </div>
 
+    <!-- Form -->
     <div class="container">
       <form action="/send" method="POST">
-        <label for="First Number:">First Number</label>
+        <label for="Number One">Enter the first number: </label>
         <input
-          type="text"
+          type="number"
           placeholder="First Number"
           class="u-full-width"
           name="x"
         />
 
-        <label for="Enter second number: ">Second Number</label>
+        <label for="Number Two">Enter the second number: </label>
         <input
-          type="text"
+          type="number"
           placeholder="Second Number"
           class="u-full-width"
           name="y"
         />
 
-        <label for="What kind of operation should be performed?">Operation</label>
-        <select class="u-full-width" name="choice">
+        <label for="Operation">What kind of operation should be performed?</label>
+        <select class="u-full-width" name="operation">
           <option value="addition">Addition</option>
           <option value="subtraction">Subtraction</option>
           <option value="multiplication">Multiplication</option>
           <option value="division">Division</option>
         </select>
 
-        <input type="submit" value="Perform" id="calc_btn"/>
+        <input type="submit" value="Perform" id="calc_btn" />
         <br />
         <div class="alert">
           {{ sum }}
@@ -66,6 +60,4 @@
       </form>
     </div>
   </body>
-  
 </html>
-
