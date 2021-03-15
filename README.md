@@ -24,3 +24,5 @@ $python3.6 -m unittest -v Basic_Test.Testing
 pip install -r requirements.txt
 
 python3 -V
+
+pip freeze > requirements.txt
