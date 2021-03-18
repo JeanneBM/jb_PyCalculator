@@ -17,8 +17,8 @@ WORKDIR /PyCalculator/PyCalculator/rest_api
 
 RUN pipenv install flask
 RUN apt-get install -y w3m w3m-img
-RUN flask run  >> log.txt 2>&1 &
-RUN w3m http://127.0.0.1:5000/ 
+// RUN flask run  >> log.txt 2>&1 &
+// RUN w3m http://127.0.0.1:5000/ 
 
-ENTRYPOINT 
-EXPOSE 
+ENTRYPOINT ./start.sh
+EXPOSE 5000/tcp
