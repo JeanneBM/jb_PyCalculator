@@ -26,3 +26,5 @@ pip install -r requirements.txt
 python3 -V
 
 pip freeze > requirements.txt
+
+docker ... ... ... -network host  ...  ... - to see in browser
