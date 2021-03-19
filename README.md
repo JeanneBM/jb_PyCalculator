@@ -28,3 +28,13 @@ python3 -V
 pip freeze > requirements.txt
 
 docker ... ... ... -network host  ...  ... - to see in browser
+
+FROM python:3.6
+MAINTAINER JeanneBM
+
+COPY . /PyCalculator
+WORKDIR /PyCalculator
+
+RUN pip install -r requirements.txt
+ENTRYPOINT ["python"]
+CMD ["app.py"]
