@@ -1,11 +1,10 @@
 language: python
-python: 3.8
-
+python: 2.7
 before_install:
   - pip install --upgrade pip
   
 script:
-   - python3 -m pytest /test
+   - python -m pytest /test
    - coverage run -m pytest
    - coverage report
 
