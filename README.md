@@ -1,3 +1,6 @@
+### Status
+[![Build Status](https://travis-ci.org/simkimsia/UtilityBehaviors.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
+
 # PyCalculator
 
 The application is a simple tool for performing basic arithmetic operations. 
