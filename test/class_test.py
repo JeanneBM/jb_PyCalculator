@@ -27,7 +27,7 @@ def test_multiply(calculator):
 
 
 def test_division(calculator):
-    answer = calculator.divi()
+    answer = calculator.division()
     verify_answer(1.5, answer)
 
 
