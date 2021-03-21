@@ -11,3 +11,8 @@ MENU:
 4 - Division
 ```
 
+3 tool forms are available:
+- REST API from http://localhost:5000
+- from the terminal, built on:
+  * class
+  * loop if 
