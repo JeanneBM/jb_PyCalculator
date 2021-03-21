@@ -6,6 +6,7 @@ before_install:
   - sudo apt-get install python3
   - sudo apt-get install python-pip
   - pip install pytest
+  - pip install coverage
   
 script:
    - python3 -m pytest
