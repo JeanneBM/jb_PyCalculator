@@ -1,9 +1,18 @@
 language: python
 python:
-  - "3.8"
+- "3.9"
 
-install: "pip install -r requirements.txt"
+before_install:
+  - pip install --upgrade pip
 
-script: install_test_deployment
+install: 
+  - pip install -r requirements.txt
+  
+script:
+   - python3 -m pytest -s -v -rs test/
+   - coverage run -m pytest
+   - coverage report
 
 after_success:
+  - pip install coveralls
+  - coveralls
