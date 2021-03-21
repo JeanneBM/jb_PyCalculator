@@ -1,6 +1,5 @@
 language: python
-python:
-- "3.8"
+python: 3.8
 
 before_install:
   - sudo apt-get update
@@ -10,7 +9,7 @@ before_install:
   - pip install coverage
   
 script:
-   - python3 -m pytest /test
+   - python3 -m pytest
    - coverage run -m pytest
    - coverage report
 
