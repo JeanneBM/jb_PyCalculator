@@ -5,6 +5,8 @@ python:
 before_install:
   - sudo apt-get update
   - sudo apt-get install python3
+  - sudo apt-get install python-pip
+  - pip install pytest
   
 script:
    - python3 -m pytest /test
