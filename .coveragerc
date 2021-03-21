@@ -1,0 +1,11 @@
+[report]
+exclude_lines =
+    if __name__ == .__main__.:
+
+[run]
+omit =
+    *__init__.py
+source = src/
+
+[paths]
+source = test/
