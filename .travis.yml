@@ -8,7 +8,7 @@ before_install:
   - pip install pytest
   
 script:
-   - python -m pytest /test
+   - python3 -m pytest
    - coverage run -m pytest
    - coverage report
 
