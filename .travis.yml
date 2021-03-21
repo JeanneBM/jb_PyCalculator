@@ -3,7 +3,8 @@ python:
 - "3.8"
 
 before_install:
-  - pip install --upgrade pip
+  - sudo apt-get update
+  - sudo apt-get install python3
   
 script:
    - python3 -m pytest /test
