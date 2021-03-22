@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/simkimsia/UtilityBehaviors.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
+[![Build Status](https://travis-ci.org/JeanneBM/PyCalculator.png)](https://travis-ci.org/JeanneBM/PyCalculator)
 [![Coverage Status](https://coveralls.io/repos/github/JeanneBM/PyCalculator/badge.svg?branch=feature)](https://coveralls.io/github/JeanneBM/PyCalculator?branch=feature)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 # PyCalculator
