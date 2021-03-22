@@ -1,6 +1,7 @@
 
 [![Build Status](https://travis-ci.org/simkimsia/UtilityBehaviors.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
 [![Coverage Status](https://coveralls.io/repos/github/JeanneBM/PyCalculator/badge.svg?branch=feature)](https://coveralls.io/github/JeanneBM/PyCalculator?branch=feature)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 # PyCalculator
 
 The application is a simple tool for performing basic arithmetic operations. 
