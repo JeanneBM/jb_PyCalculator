@@ -1,6 +1,6 @@
 
 [![Build Status](https://travis-ci.org/JeanneBM/PyCalculator.png)](https://travis-ci.org/JeanneBM/PyCalculator)
-[![Coverage Status](https://coveralls.io/repos/github/JeanneBM/PyCalculator/badge.svg?branch=feature)](https://coveralls.io/github/JeanneBM/PyCalculator?branch=feature)
+[![Coverage Status](https://coveralls.io/repos/github/JeanneBM/PyCalculator/badge.svg?branch=main)](https://coveralls.io/github/JeanneBM/PyCalculator?branch=main)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 # PyCalculator
 
