@@ -20,3 +20,11 @@ MENU:
 - From the terminal, built on:
   * class
   * loop if 
+
+#Tests
+
+Commands:
+```
+pytest
+python3 -m unittest
+```
