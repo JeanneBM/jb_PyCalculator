@@ -11,7 +11,7 @@ before_install:
 script:
    - python3 -m pytest
    - coverage run -m pytest
-   - coverage report
+   - coverage report 2>&1 | grep /src
 
 after_success:
   - pip install coveralls
