@@ -24,7 +24,7 @@ MENU:
 ## Containers
 ```
 sudo docker build Dockerfile
-sudo docker container run -it --name //NameofaContainer //imagesid
+sudo docker container run -it --name //NameofaContainer //ImageID
 ```
 
 ## Tests
