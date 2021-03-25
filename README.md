@@ -21,6 +21,12 @@ MENU:
   * class
   * loop if 
 
+## Containers
+```
+sudo docker build Dockerfile
+sudo docker container run -it --name //NameofaContainer //ImageID
+```
+
 ## Tests
 
 Commands:
