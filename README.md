@@ -2,7 +2,9 @@
 [![Build Status](https://travis-ci.org/JeanneBM/PyCalculator.png)](https://travis-ci.org/JeanneBM/PyCalculator)
 [![Coverage Status](https://coveralls.io/repos/github/JeanneBM/PyCalculator/badge.svg?branch=main)](https://coveralls.io/github/JeanneBM/PyCalculator?branch=main)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-# PyCalculator
+# PyCalculator  
+[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)
+
 
 The application is a simple tool for performing basic arithmetic operations. 
 
