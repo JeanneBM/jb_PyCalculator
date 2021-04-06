@@ -1,4 +1,39 @@
-## 00.00.13 (11/03/2021)
+## 00.00.17 (18/03/2021)
+* Create start.sh
+* Update:
+  * Dockerfile
+  * README.md
+
+## 00.00.16 (15/03/2021)
+Update:
+  * class_test.py
+  * requirements.txt
+  * README.md
+
+## 00.00.15 (14/03/2021)
+* Create:
+  * class_test.py
+  * docker-compose.yml
+  * flask.conf
+* Rename:
+  * src/rest api/app.py to src/rest_api/app.py
+  * src/rest api/app.html to src/rest_api/templates/app.html
+  * travis.yml to .travis.yml
+  * server.html to app.html
+  * rest_api.py to app.py
+* Update:
+  * .travis.yml
+  * Dockerfile
+  * README.md
+  * app.py
+  * app.html
+
+## 00.00.14 (13/03/2021)
+* Create CHANGELOG.md
+* Update Dockerfile
+
+## 00.00.13 (12/03/2021)
+Create Dockerfile
 
 ## 00.00.12 (11/03/2021)
 * Create:
