@@ -13,4 +13,4 @@ def verify_answer(expected, answer):
 
 def test_division(calculator):
     answer = calculator.division()
-    verify_answer('Division by zero. We cannot perform this operation.', answer)
+    verify_answer(None, answer)
