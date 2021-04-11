@@ -6,6 +6,6 @@ WORKDIR /PyCalculator
 
 RUN pip install -r requirements.txt
 
-CMD ["app.py"]
+CMD ["python", "app.py"]
 
 EXPOSE 5000/tcp
