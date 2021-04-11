@@ -1,10 +1,7 @@
 import pytest
 from src.classy_calc import *
 
-choice=1
-
-import pytest
-from src.classy_calc import PyCalculator
+choice = 1
 
 x = 3.0
 y = 2.0
@@ -20,20 +17,6 @@ def test_add(calculator):
     answer = calculator.addition()
     verify_answer(5.0, answer)
 
-
-def test_subtract(calculator):
-    answer = calculator.subtraction()
-    verify_answer(1.0, answer)
-
-
-def test_multiply(calculator):
-    answer = calculator.multiplication()
-    verify_answer(6.0, answer)
-
-
-def test_division(calculator):
-    answer = calculator.division()
-    verify_answer(1.5, answer)
 
 def test_main():
     assert choice == calculator.addition
