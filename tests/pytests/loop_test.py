@@ -19,5 +19,5 @@ def test_add(calculator):
 
 
 def test_main():
-    assert choice == calculator.addition
+    assert choice(1) == calculator.addition
 
