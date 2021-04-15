@@ -39,3 +39,6 @@ virtualenv==20.4.2
 virtualenv-clone==0.5.1
 Werkzeug==1.0.1
 
+
+selenium==3.141.0
+urllib3==1.25.8
