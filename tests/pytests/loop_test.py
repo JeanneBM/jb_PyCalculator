@@ -1,7 +1,7 @@
 import pytest
 from src.classy_calc import *
 
-choice = int(1)
+choice = str(1)
 
 x = 3.0
 y = 2.0
