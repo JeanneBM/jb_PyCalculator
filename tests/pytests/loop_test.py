@@ -1,4 +1,3 @@
-'''
 import pytest
 from src.classy_calc import *
 
@@ -22,4 +21,3 @@ def test_add(calculator):
 def test_main():
     assert choice(1) == calculator.addition
 
-'''
