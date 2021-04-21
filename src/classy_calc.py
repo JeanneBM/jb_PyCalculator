@@ -26,7 +26,7 @@ def main():
     print("3 - Multiplication")
     print("4 - Division")
 
-    choice = input("What kind of operation should be performed? [Insert one of the options(1 2 3 4)]: ")
+    choice = int(input("What kind of operation should be performed? [Insert one of the options(1 2 3 4)]: "))
     if choice in ('1', '2', '3', '4'):
         x = float(input("Enter first number: "))
         y = float(input("Enter second number: "))
