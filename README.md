@@ -36,3 +36,7 @@ Commands:
 pytest
 python3 -m unittest
 ```
+
+## Sources:
+
+https://pytest-flask.readthedocs.io/en/latest/
