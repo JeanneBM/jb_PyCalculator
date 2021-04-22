@@ -23,7 +23,7 @@ def choice_test(test_input, expected):
 
 @pytest.fixture
 def main_test():
-    return main(choice, x,y)
+    return main()
 
 def test_loop(main_test):
     assert choice(1) == print(calculator.addition())
