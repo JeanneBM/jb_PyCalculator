@@ -5,14 +5,14 @@ x = 3.0
 y = 2.0
 
 @pytest.fixture
-def calculator1():
+def calculator():
     return PyCalculator(x,y)
 
 def verify_answer(expected, answer):
     assert expected == answer
 
-def test_add(calculator1):
-    answer = calculator1.addition()
+def test_add(calculator):
+    answer = calculator.addition()
     verify_answer(5.0, answer)
 
 '''    
@@ -20,6 +20,8 @@ def test_add(calculator1):
 def choice_test(test_input, expected):
     assert choice(test_input) == expected
 ''' 
+
+@pytest.fixture
 def main_test():
     return main(choice, x,y)
 
