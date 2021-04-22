@@ -27,7 +27,12 @@ def choice_test(test_input, expected):
 def main_test():
     return main()
 
+
+def verify_answer(expected, answer):
+    assert expected == answer
+
 def test_loop(main_test):
-    assert main.choice(1) == print(calculator.addition())
+    answer1 == print(calculator.addition())
+    verify_answer(5.0, answer)
     
     
