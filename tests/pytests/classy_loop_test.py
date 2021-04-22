@@ -17,3 +17,9 @@ def test_add(calculator):
     answer = calculator.addition()
     verify_answer(5.0, answer)
 
+    
+@pytest.mark.parametrize("test_input, expected", [(1,test_add.answer)])
+def choice_test(test_input, expected):
+    assert choice(test_input) == expected
+    
+    
