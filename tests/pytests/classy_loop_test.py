@@ -4,6 +4,7 @@ from src.classy_calc import *
 choice = 1
 
 x = 3.0
+y = 2.0
 
 @pytest.fixture
 def calculator():
