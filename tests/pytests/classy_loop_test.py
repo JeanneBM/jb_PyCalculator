@@ -20,8 +20,10 @@ def test_add(calculator):
 def choice_test(test_input, expected):
     assert choice(test_input) == expected
 ''' 
- 
-def test_loop(main):
+def main_test():
+    return main(choice, x,y)
+
+def test_loop(main_test):
     assert choice(1) == print(calculator.addition())
     
     
