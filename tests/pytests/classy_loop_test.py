@@ -22,6 +22,6 @@ def choice_test(test_input, expected):
 ''' 
  
 def test_main_choice_loop():
-    assert main(1) == print(calculator.addition())
+    assert main(self) == print(calculator.addition())
     
     
