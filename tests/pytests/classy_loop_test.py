@@ -29,12 +29,11 @@ def main_test():
 #main():   
 #choice = input("What kind of operation should be performed? [Insert one of the options(1 2 3 4)]: ")
 
-'''
+
 def verify_answer(expected, answer):
     assert expected == answer
 
 def test_loop(main_test):
     answer1 == print(calculator.addition())
     verify_answer(5.0, answer)
-    
-'''
+
