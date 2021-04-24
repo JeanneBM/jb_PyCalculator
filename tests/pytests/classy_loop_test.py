@@ -7,8 +7,12 @@ y = 2.0
 choice = 1
 
 @pytest.fixture
-def calculator():
+def main_test():
+    return main()
     return PyCalculator(x,y)
+
+#main():   
+#choice = input("What kind of operation should be performed? [Insert one of the options(1 2 3 4)]: ")
 
 def verify_answer(expected, answer):
     assert expected == answer
@@ -23,15 +27,8 @@ def choice_test(test_input, expected):
     assert choice(test_input) == expected
 ''' 
 
-@pytest.fixture
-def main_test():
-    return main()
 #main():   
 #choice = input("What kind of operation should be performed? [Insert one of the options(1 2 3 4)]: ")
-
-
-def verify_answer(expected, answer):
-    assert expected == answer
 
 def test_loop(main_test):
     answer1 == print(calculator.addition())
