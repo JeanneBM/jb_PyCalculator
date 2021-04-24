@@ -9,7 +9,7 @@ before_install:
   - pip install coverage
   
 script:
-   - python3 -m -s pytest
+   - python3 -ms pytest
    - coverage run -m pyte st
    - coverage report 2>&1 
 
