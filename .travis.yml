@@ -9,8 +9,8 @@ before_install:
   - pip install coverage
   
 script:
-   - python3 -m pytest
-   - coverage run -m pytest
+   - python3 -m -s pytest
+   - coverage run -m pyte st
    - coverage report 2>&1 
 
 after_success:
