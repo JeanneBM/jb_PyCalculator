@@ -8,7 +8,7 @@ choice = 1
 
 @pytest.fixture
 def main_test():
-    return main()
+    return main(choice,x,y)
 
 #main():   
 #choice = input("What kind of operation should be performed? [Insert one of the options(1 2 3 4)]: ")
