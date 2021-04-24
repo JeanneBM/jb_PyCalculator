@@ -10,7 +10,7 @@ before_install:
   
 script:
    - python3 -m pytest
-   - coverage run -m pyte st
+   - coverage run -m pytest
    - coverage report 2>&1 
 
 after_success:
