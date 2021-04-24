@@ -13,6 +13,7 @@ def main_test():
 #main():   
 #choice = input("What kind of operation should be performed? [Insert one of the options(1 2 3 4)]: ")
 
+@pytest.fixture
 def calculator():
     return PyCalculator(x,y)
 
