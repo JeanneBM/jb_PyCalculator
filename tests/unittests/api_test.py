@@ -2,12 +2,14 @@ import unittest
 import urllib2
 from flask import Flask
 from flask import render_template
+from flask.ext.testing import LiveServerTestCase 
+
 from src.rest_api.app import *
 
 BASE_URL = 'http://localhost:5000/api/'
 
-class Test(unittest.TestCase):
-    def create_app(cfg=None):
+class Test(LiveServerTestCase):
+    def create_app(self):
         app = Flask(__name__)
         app.config['DEBUG'] = True
         app.config['TESTING'] = True
