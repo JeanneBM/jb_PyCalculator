@@ -1,4 +1,5 @@
 import unittest
+import urllib2
 from flask import Flask
 from flask import render_template
 from src.rest_api.app import *
