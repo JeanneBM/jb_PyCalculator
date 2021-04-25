@@ -9,6 +9,10 @@ class Test(unittest.TestCase):
         
     def tear_down(self):
         pass
+    
+    def test(self):
+        response = self.app.get('/', follow_redirects=True)
+        self.asserEqual(response.status_code, 200)
       
 if __name__ == ' __main__':
     unittest.main()
