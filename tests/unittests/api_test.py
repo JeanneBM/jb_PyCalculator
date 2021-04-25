@@ -10,8 +10,12 @@ BASE_URL = 'http://localhost:5000/api/'
 class Test(unittest.TestCase):
     def create_app(self):
         app = Flask(__name__)
+        self.app = app.test_client()
+        
         app.config['DEBUG'] = True
         app.config['TESTING'] = True
+        
+        self.app.testing = True 
         return app
         
     def tear_down(self):
