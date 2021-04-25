@@ -17,7 +17,7 @@ class Test(unittest.TestCase):
     
     def web_test(self):
         self.app.get('/')
-        self.assert_template_used('hello.html')    
+        self.assert_template_used('app.html')    
     
     def tear_down(self):
 
