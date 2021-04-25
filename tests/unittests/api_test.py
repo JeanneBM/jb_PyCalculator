@@ -1,6 +1,6 @@
 import unittest
-#from flask import Flask
-#from flask import render_template
+from flask import Flask
+from flask import render_template
 from src.rest_api.app import *
 
 BASE_URL = 'http://localhost:5000/api/'
