@@ -24,11 +24,11 @@ def test_add(calculator):
     answer = calculator.addition()
     verify_answer(5.0, answer)
 
-'''    
+    
 @pytest.mark.parametrize("test_input, expected", [(1,5)])
 def choice_test(test_input, expected):
     assert choice(test_input) == expected
-'''
+
 '''
 def test_loop(main_test):
     answer1 == print(calculator.addition())
