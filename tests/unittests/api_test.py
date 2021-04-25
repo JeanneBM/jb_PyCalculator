@@ -1,17 +1,22 @@
 import unittest
 from flask import Flask
 from flask import render_template
+
+
 from src.rest_api.app import *
 
 BASE_URL = 'http://localhost:5000/api/'
 
 class Test(unittest.TestCase):
-    def create_app(cfg=None):
+    def create_app(self):
         app = Flask(__name__)
+        app.config['DEBUG'] = True
+        app.config['TESTING'] = True
         return app
         
     def tear_down(self):
         pass
+    
     
     def web_test(self):
         self.app.get('/')
