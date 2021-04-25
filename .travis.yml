@@ -6,10 +6,12 @@ before_install:
   - sudo apt-get install python3
   - sudo apt-get install python-pip
   - pip install pytest
+  - pip install unittest
   - pip install coverage
   
 script:
    - python3 -m pytest
+   - python -m unittest discover
    - coverage run -m pytest
    - coverage report 2>&1 
 
