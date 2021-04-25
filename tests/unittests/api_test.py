@@ -12,9 +12,9 @@ class Test(unittest.TestCase):
     def tear_down(self):
         pass
     
-    def test(self):
-        response = self.app.post('/', follow_redirects=True)
-        self.asserEqual(response.status_code, 200)
+    def web_test(self):
+        self.app.get('/')
+        self.assert_template_used('app.html')
       
 if __name__ == ' __main__':
     unittest.main()
