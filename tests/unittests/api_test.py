@@ -20,7 +20,7 @@ class Test(TestCase):
         self.assert_template_used('app.html')    
     
     def tear_down(self):
-
+        pass
       
 if __name__ == ' __main__':
     unittest.main()
