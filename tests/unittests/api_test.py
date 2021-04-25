@@ -15,6 +15,10 @@ class Test(unittest.TestCase):
     def tear_down(self):
         pass
     
+    def flask_application_is_up_and_running_test(self):
+        response = urllib2.urlopen(self.get_server_url())
+        self.assertEqual(response.code, 200) 
+    
     def web_test(self):
         self.app.get('/')
         self.assert_template_used('app.html')
