@@ -12,3 +12,6 @@ def test_add():
   assert result
   assert addition(4,5)
     
+if __name__ == "__main__":
+    test_add()
+    print("Everything passed")
