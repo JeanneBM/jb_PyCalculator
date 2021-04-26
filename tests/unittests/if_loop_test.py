@@ -4,10 +4,6 @@ from src.if_loop import *
 x = 3.0
 y = 2.0
 
-
-@pytest.fixture
-def calculator():
-    return PyCalculator(x,y)
 '''
     def test_add(self):
         self.assertEqual(self.calculator.addition(),5)
@@ -26,8 +22,8 @@ def calculator():
 def verify_answer(expected, answer):
     assert expected == answer
         
-def add_test(calculator):
-    answer = calculator.addition(x, y)
+def add_test():
+    answer = addition(x, y)
     verify_answer(5.0, answer)
         
         
