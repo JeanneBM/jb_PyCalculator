@@ -9,7 +9,7 @@ class class_unittest(unittest.TestCase):
 
     def setUp(self):
         self.calculator = PyCalculator(x,y)
-
+'''
     def test_add(self):
         self.assertEqual(self.calculator.addition(),5)
 
@@ -22,7 +22,16 @@ class class_unittest(unittest.TestCase):
     def test_division(self):
         self.assertEqual(self.calculator.division(),1.5)
 
+'''
 
+    def verify_answer(expected, answer):
+        assert expected == answer
+        
+    def add_test(calculator):
+        answer = calculator.add(x, y)
+        verify_answer(5.0, answer)
+        
+        
 if __name__ == "__main__":
     unittest.main()
         
