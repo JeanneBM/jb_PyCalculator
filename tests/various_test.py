@@ -1,7 +1,7 @@
 import unittest
 from test import support
 
-from src.rest_api import *
+from src.rest_api import app
 
 class MyTest(unittest.TestCase):
 
