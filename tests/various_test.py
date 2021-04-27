@@ -3,7 +3,7 @@ from test import support
 
 from src.rest_api import *
 
-class MyTest(TestCase):
+class MyTest(unittest.TestCase):
 
     def create_app(self):
         return myflaskapp
