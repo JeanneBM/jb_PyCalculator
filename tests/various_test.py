@@ -6,7 +6,7 @@ from src.rest_api import *
 class MyTest(unittest.TestCase):
 
     def create_app(self):
-        return myflaskapp
+        return app
 
     def test_greeting(self):
         self.app.get('/')
