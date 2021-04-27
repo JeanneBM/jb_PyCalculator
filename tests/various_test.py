@@ -1,4 +1,5 @@
-from flask.ext.testing import TestCase
+import unittest
+from test import support
 
 from src.rest_api import *
 
@@ -11,3 +12,5 @@ class MyTest(TestCase):
         self.app.get('/')
         self.assert_template_used('app.html')
         
+if __name__ == '__main__':
+    unittest.main()
