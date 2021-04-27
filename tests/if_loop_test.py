@@ -1,7 +1,7 @@
 import unittest
 
 
-from src import *
+from src.rest_api import *
 
 class BasicTestCase(unittest.TestCase):
     def test_home(self):
