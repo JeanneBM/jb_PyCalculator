@@ -14,7 +14,7 @@ def test_add(capsys):
     out, err = capsys.readouterr()
 
     # then
-    assert out == '5\n'
+    assert out == 'Select please one of the following operations:\n'
   
 '''
 if __name__ == "__main__":
