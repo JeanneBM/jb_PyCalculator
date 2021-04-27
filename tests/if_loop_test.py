@@ -28,13 +28,10 @@ def test_themes_run_in_sandbox():
     destroy_ctfd(app)
 
 
-def test_themes_cant_access_configpy_attributes():
-
-
 ## ... source file abbreviated to get to render_template examples ...
-
-         except TemplateNotFound:
-             pass
+def test_themes_cant_access_configpy_attributes():
+    except TemplateNotFound:
+        pass
     destroy_ctfd(app)
 
     class ThemeFallbackConfig(TestingConfig):
