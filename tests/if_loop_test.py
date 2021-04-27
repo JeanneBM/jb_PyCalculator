@@ -30,11 +30,6 @@ def test_themes_run_in_sandbox():
 
 ## ... source file abbreviated to get to render_template examples ...
 def test_themes_cant_access_configpy_attributes():
-'''  
-except TemplateNotFound:
-        pass
-    destroy_ctfd(app)
-'''
     class ThemeFallbackConfig(TestingConfig):
         THEME_FALLBACK = True
 
