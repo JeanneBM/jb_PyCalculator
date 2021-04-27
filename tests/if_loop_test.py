@@ -33,9 +33,8 @@ def test_themes_cant_access_configpy_attributes():
 
 ## ... source file abbreviated to get to render_template examples ...
 
-
-            except TemplateNotFound:
-                pass
+         except TemplateNotFound:
+             pass
     destroy_ctfd(app)
 
     class ThemeFallbackConfig(TestingConfig):
