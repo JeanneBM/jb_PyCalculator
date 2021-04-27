@@ -1,4 +1,3 @@
-import unittest
 from src.if_loop import *
 
 def test_add(capsys):
