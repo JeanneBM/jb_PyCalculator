@@ -5,6 +5,11 @@ from src.rest_api import app
 
 class MyTest(unittest.TestCase):
 
+    def setUp(self):
+        self.app.config['TESTING'] = True
+        self.app.config['DEBUG'] = False
+        self.app = app.test_client()
+        
     def create_app(self):
         return app
 
