@@ -1,3 +1,31 @@
+## 00.00.20 (21/03/2021)
+* Create:
+  * python-app.yml
+  * __init__.py
+* Update:
+  * Dockerfile
+  * README.md
+  * requirements.txt
+  * class_test.py
+  * .travis.yml
+* Delete:
+  * class_test.py
+  * __init__.py
+  * loop_test.py
+  * input_test.py
+
+## 00.00.19 (20/03/2021)
+* Create:
+  * codeql-analysis.yml
+  * python-publish.yml
+* Update:
+  * Dockerfile
+  * README.md
+  * requirements.txt
+* Delete:
+  * flask.conf
+  * docker-compose.yml
+
 ## 00.00.18 (19/03/2021)
 Update README.md
 
