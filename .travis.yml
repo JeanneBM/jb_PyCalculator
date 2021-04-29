@@ -8,6 +8,7 @@ before_install:
   - pip install pytest
   - pip install coverage
   - pip install docker pytest
+  - pip install utils
   
 script:
    - python3 -m pytest
