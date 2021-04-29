@@ -6,7 +6,7 @@ import requests
 from docker.models.containers import Container
 
 from utils import (
-    CONTAINER_NAME,
+    #CONTAINER_NAME,
     get_config,
     get_logs,
     get_response_text1,
