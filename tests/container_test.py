@@ -18,7 +18,7 @@ client = docker.from_env()
 
 
 def verify_container(container: Container, response_text: str) -> None:
-    response = requests.get("http://127.0.0.1:8000")
+    response = requests.get("http://127.0.0.1:5000")
     assert response.text == response_text
     config_data = get_config(container)
     assert config_data["workers_per_core"] == 2
