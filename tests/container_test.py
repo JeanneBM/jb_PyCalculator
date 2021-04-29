@@ -5,7 +5,7 @@ import docker
 import requests
 from docker.models.containers import Container
 
-from ..utils import (
+from utils import (
     CONTAINER_NAME,
     get_config,
     get_logs,
