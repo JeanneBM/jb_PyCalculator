@@ -1,3 +1,4 @@
+'''
 import os
 import time
 
@@ -33,7 +34,7 @@ def verify_container(container: Container, response_text: str) -> None:
         "Running inside /app/prestart.sh, you could add migrations to this file" in logs
     )
 
-'''
+
 def test_defaults() -> None:
     name = os.getenv("NAME")
     image = f"tiangolo/meinheld-gunicorn-flask:{name}"
