@@ -13,8 +13,6 @@ from ..utils import (
     remove_previous_container,
 )
 
-client = docker.from_env()
-
 '''
 import os
 import time
