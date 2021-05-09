@@ -1,3 +1,4 @@
+'''
 import os
 import time
 
@@ -13,21 +14,6 @@ from ..utils import (
     remove_previous_container,
 )
 
-'''
-import os
-import time
-
-import docker
-import requests
-from docker.models.containers import Container
-
-from utils import (
-    #CONTAINER_NAME,
-    get_config,
-    get_logs,
-    get_response_text1,
-    remove_previous_container,
-)
 
 client = docker.from_env()
 
