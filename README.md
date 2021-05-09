@@ -39,8 +39,9 @@ python3 -m unittest
 
 
 ## Running gunicorn server
-
+```
 gunicorn --bind 0.0.0.0:5000 wsgi:app
+```
 
 ## Sources:
 
