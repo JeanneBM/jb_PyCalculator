@@ -37,6 +37,11 @@ pytest
 python3 -m unittest
 ```
 
+
+## Running gunicorn server
+
+gunicorn --bind 0.0.0.0:5000 wsgi:app
+
 ## Sources:
 
 Welcome to pytest-flask’s documentation!
@@ -45,5 +50,4 @@ Welcome to pytest-flask’s documentation!
 https://pytest-flask.readthedocs.io/en/latest/
 
 https://github.com/pytest-dev/pytest-flask/blob/master/docs/index.rst
-
 
