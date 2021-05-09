@@ -22,4 +22,3 @@ def test_add(calculator):
 @pytest.mark.parametrize("test_input, expected", [(1,5)])
 def choice_test(test_input, expected):
     assert choice(test_input) == expected
-
