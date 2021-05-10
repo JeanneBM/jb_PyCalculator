@@ -43,10 +43,9 @@ python3 -m unittest
 gunicorn --bind 0.0.0.0:5000 wsgi:app
 ```
 
-## Sources:
+## Sources
 
-Welcome to pytest-flask’s documentation!
-
+pytest-flask’s documentation
 
 https://pytest-flask.readthedocs.io/en/latest/
 
