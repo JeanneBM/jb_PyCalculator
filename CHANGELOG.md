@@ -1,3 +1,10 @@
+## 00.00.26 (28/03/2021)
+* Create:
+  * Create selenium_test.py
+* Update:
+  * README.md
+  * requirements.txt
+
 ## 00.00.25 (27/03/2021)
 Update Dockerfile
 
