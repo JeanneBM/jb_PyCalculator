@@ -1,3 +1,16 @@
+
+## 00.00.22 (23/03/2021)
+
+## 00.00.22 (23/03/2021)
+Update README.md
+
+## 00.00.21 (22/03/2021)
+* Update:
+  * Dockerfile
+  * README.md
+  * class_test.py
+  * .travis.yml
+
 ## 00.00.20 (21/03/2021)
 * Create:
   * python-app.yml
