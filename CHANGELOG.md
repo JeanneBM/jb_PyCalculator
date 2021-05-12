@@ -1,6 +1,12 @@
+## 00.00.27 (29/03/2021)
+* Create:
+  * selenium_web_test.py
+* Update:
+  * selenium_test.py
+
 ## 00.00.26 (28/03/2021)
 * Create:
-  * Create selenium_test.py
+  * selenium_test.py
 * Update:
   * README.md
   * requirements.txt
