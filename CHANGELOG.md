@@ -1,4 +1,5 @@
-
+## 00.00.25 (27/03/2021)
+Update Dockerfile
 
 ## 00.00.24 (25/03/2021)
 Update README.md
