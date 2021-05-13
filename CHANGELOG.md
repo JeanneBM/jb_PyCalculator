@@ -1,3 +1,23 @@
+## 00.00.37 (25/04/2021)
+* Create api_test.py
+* Update classy_loop_test.py
+* Delete start.sh
+
+## 00.00.36 (24/04/2021)
+Update:
+  * .travis.yml
+  * classy_loop_test.py
+
+## 00.00.35 (23/04/2021)
+Update classy_loop_test.py
+
+## 00.00.34 (22/04/2021)
+* Update:
+  * README.md
+  * requirements.txt
+  * loop_test.py
+* Rename loop_test.py to classy_loop_test.py
+
 ## 00.00.33 (21/04/2021)
 * Update:
   * loop_test.py
