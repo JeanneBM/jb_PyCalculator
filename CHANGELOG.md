@@ -1,3 +1,6 @@
+## 00.00.32 (12/04/2021)
+Update requirements.txt
+
 ## 00.00.31 (11/04/2021)
 Update:
   * loop_test.py
