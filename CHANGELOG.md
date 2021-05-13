@@ -1,4 +1,13 @@
-## 00.00.32 (12/04/2021)
+## 00.00.33 (21/04/2021)
+* Update:
+  * loop_test.py
+  * classy_calc.py
+  * if_loop.py
+* Delete:
+  * selenium_web_test.py
+  * selenium_test.py
+
+## 00.00.32 (16/04/2021)
 Update requirements.txt
 
 ## 00.00.31 (11/04/2021)
