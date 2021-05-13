@@ -1,7 +1,9 @@
-
+## 00.00.31 (11/04/2021)
+Update loop_test.py
 
 ## 00.00.30 (10/04/2021)
-Update:
+* Create loop_test.py
+* Update:
   * .travis.yml 
   * divide_by_0_test.py
 
