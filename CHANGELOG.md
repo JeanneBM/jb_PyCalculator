@@ -1,3 +1,13 @@
+
+
+## 00.00.30 (10/04/2021)
+Update:
+  * .travis.yml 
+  * divide_by_0_test.py
+
+## 00.00.29 (08/04/2021)
+Create division_zero_test.py
+
 ## 00.00.28 (30/03/2021)
 Update:
   * selenium_web_test.py
