@@ -1,3 +1,8 @@
+## 00.00.36 (24/04/2021)
+Update:
+  * .travis.yml
+  * classy_loop_test.py
+
 ## 00.00.35 (23/04/2021)
 Update classy_loop_test.py
 
