@@ -1,6 +1,8 @@
 ## 00.00.31 (11/04/2021)
-Update loop_test.py
-
+Update:
+  * loop_test.py
+  * Dockerfile
+  
 ## 00.00.30 (10/04/2021)
 * Create loop_test.py
 * Update:
