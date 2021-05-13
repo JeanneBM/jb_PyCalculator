@@ -1,3 +1,29 @@
+## 00.00.33 (21/04/2021)
+* Update:
+  * loop_test.py
+  * classy_calc.py
+  * if_loop.py
+* Delete:
+  * selenium_web_test.py
+  * selenium_test.py
+
+## 00.00.32 (16/04/2021)
+Update requirements.txt
+
+## 00.00.31 (11/04/2021)
+Update:
+  * loop_test.py
+  * Dockerfile
+  
+## 00.00.30 (10/04/2021)
+* Create loop_test.py
+* Update:
+  * .travis.yml 
+  * divide_by_0_test.py
+
+## 00.00.29 (08/04/2021)
+Create division_zero_test.py
+
 ## 00.00.28 (30/03/2021)
 Update:
   * selenium_web_test.py
