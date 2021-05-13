@@ -1,3 +1,9 @@
+## 00.00.38 (26/04/2021)
+Update:
+  * .travis.yml
+  * if_loop_test.py
+  * api_test.py
+
 ## 00.00.37 (25/04/2021)
 * Create api_test.py
 * Update classy_loop_test.py
