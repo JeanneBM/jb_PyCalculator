@@ -1,3 +1,8 @@
+## 00.00.39 (27/04/2021)
+Update:
+  * .travis.yml
+  * if_loop_test.py
+
 ## 00.00.38 (26/04/2021)
 Update:
   * .travis.yml
