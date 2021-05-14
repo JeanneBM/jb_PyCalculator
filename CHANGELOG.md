@@ -1,3 +1,15 @@
+
+
+## 00.00.44 (09/05/2021)
+* Create .coveragerc 
+* Update:
+  * container_test.py
+  * README.md
+  * classy_loop_test.py
+
+## 00.00.43 (06/05/2021)
+Update container_test.py
+
 ## 00.00.42 (31/04/2021)
 * Create:
   * postman_get.html
