@@ -1,10 +1,9 @@
 
 ![Build Status](https://travis-ci.org/JeanneBM/PyCalculator.svg?branch=main)
 [![Coverage Status](https://coveralls.io/repos/github/JeanneBM/PyCalculator/badge.svg?branch=main)](https://coveralls.io/github/JeanneBM/PyCalculator?branch=main)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-# PyCalculator  
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
+# PyCalculator  
 
 The application is a simple tool for performing basic arithmetic operations. 
 
@@ -43,11 +42,4 @@ python3 -m unittest
 gunicorn --bind 0.0.0.0:5000 wsgi:app
 ```
 
-## Sources
-
-pytest-flask’s documentation
-
-https://pytest-flask.readthedocs.io/en/latest/
-
-https://github.com/pytest-dev/pytest-flask/blob/master/docs/index.rst
 
