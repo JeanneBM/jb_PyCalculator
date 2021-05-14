@@ -1,3 +1,10 @@
+## 00.00.42 (31/04/2021)
+* Create:
+  * postman_get.html
+  * get.json
+  * get_with_body.json
+* Update container_test.py
+
 ## 00.00.41 (30/04/2021)
 Update container_test.py
 
