@@ -1,3 +1,26 @@
+## 00.00.46 (12/05/2021)
+Delete container_test.py
+
+## 00.00.45 (10/05/2021)
+Update README.md
+
+## 00.00.44 (09/05/2021)
+* Create .coveragerc 
+* Update:
+  * container_test.py
+  * README.md
+  * classy_loop_test.py
+
+## 00.00.43 (06/05/2021)
+Update container_test.py
+
+## 00.00.42 (31/04/2021)
+* Create:
+  * postman_get.html
+  * get.json
+  * get_with_body.json
+* Update container_test.py
+
 ## 00.00.41 (30/04/2021)
 Update container_test.py
 
