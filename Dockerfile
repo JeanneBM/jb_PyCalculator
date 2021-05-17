@@ -5,6 +5,8 @@ COPY . /PyCalculator
 WORKDIR /PyCalculator
 
 RUN pip install -r requirements.txt
+RUN pip install black
+RUN pip freeze\
 
 CMD ["python", "app.py"]
 
