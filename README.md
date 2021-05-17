@@ -42,4 +42,6 @@ python3 -m unittest
 gunicorn --bind 0.0.0.0:5000 wsgi:app
 ```
 
+![Zrzut ekranu z 2021-05-17 12-45-21](https://user-images.githubusercontent.com/55690923/118477406-edae9980-b70e-11eb-85bd-eb594bc982c9.png)
+![Zrzut ekranu z 2021-05-17 12-44-40](https://user-images.githubusercontent.com/55690923/118477440-f69f6b00-b70e-11eb-873a-024a6076834a.png)
 
