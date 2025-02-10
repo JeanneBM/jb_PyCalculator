@@ -7,7 +7,9 @@ y = -2.0
 
 class class_unittest(unittest.TestCase):
 
-
+    def test_multiply(self):
+        self.assertEqual(self.calculator.multiplication(),20)
+        
     def test_division(self):
         self.assertEqual(self.calculator.division(),-5)
 
