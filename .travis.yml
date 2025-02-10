@@ -12,6 +12,7 @@ before_install:
   
 script:
    - python3 -m pytest
+   - python -m unittest discover
    - coverage run -m pytest
    - coverage report 2>&1 
 
