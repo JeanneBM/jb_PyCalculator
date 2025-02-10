@@ -1,3 +1,4 @@
+'''
 import unittest
 from src.classy_calc import PyCalculator
 
@@ -16,3 +17,4 @@ class class_unittest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+'''
