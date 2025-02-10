@@ -6,11 +6,11 @@ y = 0.0
 
 @pytest.fixture
 def calculator():
-    return PyCalculator(x,y)
+    return PyCalculator(x, y)
 
 def verify_answer(expected, answer):
     assert expected == answer
 
 def test_division(calculator):
     answer = calculator.division()
-    verify_answer(None, answer)
+    verify_answer("Division by zero is not allowed.", answer)
