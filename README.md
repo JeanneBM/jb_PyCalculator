@@ -3,6 +3,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/JeanneBM/PyCalculator/badge.svg?branch=main)](https://coveralls.io/github/JeanneBM/PyCalculator?branch=main)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
+
+[![Run Tests & Coverage](https://github.com/JeanneBM/jb_PyCalculator/actions/workflows/coverage.yml/badge.svg)](https://github.com/JeanneBM/jb_PyCalculator/actions/workflows/coverage.yml)
+
 # PyCalculator  
 
 The application is a simple tool for performing basic arithmetic operations. 
