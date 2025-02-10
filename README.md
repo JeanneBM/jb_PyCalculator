@@ -1,30 +1,45 @@
-# PyCalculator
 
-The application is a tool for performing basic arithmetic operations. 
+![Build Status](https://travis-ci.org/JeanneBM/PyCalculator.svg?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/JeanneBM/PyCalculator/badge.svg?branch=main)](https://coveralls.io/github/JeanneBM/PyCalculator?branch=main)
+[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)
+
+# PyCalculator  
+
+The application is a simple tool for performing basic arithmetic operations. 
 
 The user has 4 operations to choose. 
+```
 MENU:
-
 1 - Addition 
-
 2 - Subtraction
-
 3 - Multiplication 
-
 4 - Division
+```
 
-To run the application: python3 name_of_the_file.py
+3 tool forms are available:
+- REST API from http://localhost:5000
+- From the terminal, built on:
+  * class
+  * loop if 
 
-If you’re using PyCharm IDE, you can simply press ctrl+shift+F10 to run unittest module. Otherwise you can use command prompt to run this module. For example, we named the file for unit-testing as Basic_Test.py. So the command to run python unittest will be:
-$python3.6 -m unittest Basic_Test.Testing
+## Containers
+```
+sudo docker build Dockerfile
+sudo docker container run -it --name //NameofaContainer //ImageID
+```
 
-If you want to see the verbose, then the command will be:
-$python3.6 -m unittest -v Basic_Test.Testing
+## Tests
 
-pip install -r requirements.txt
+Commands:
+```
+pytest
+python3 -m unittest
+```
 
-python3 -V
 
-pip freeze > requirements.txt
+## Running gunicorn server
+```
+gunicorn --bind 0.0.0.0:5000 wsgi:app
+```
 
-docker ... ... ... -network host  ...  ... - to see in browser
+

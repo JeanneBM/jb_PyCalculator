@@ -8,7 +8,7 @@ def main():
     return render_template('app.html')
 
 
-@app.route('/send', methods=['POST'])
+@app.route('/calculations', methods=['POST'])
 def send(sum=sum):
     if request.method == 'POST':
         x = request.form['x']
